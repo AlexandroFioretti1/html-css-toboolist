@@ -3,46 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-main {
-    background-color: #f6f9f8;
+main 
+{
+    background-color: white;
     margin-left: 400px;
     margin-right: 600px;
     margin-top: 50px;
+    
 }
-
-
-body {
+body 
+{
     background-color: #f6f9f8;
     margin: 0;
 }
-
-header {
+header
+ {
     background-color: white;
     padding-left: 30px;
 }
 
-.text-logo {
-    font-size: 3rem;
+.text-logo
+ {
+     font-size: 3rem;
     vertical-align: bottom;
 }
 
-.button {
+.button 
+{
     font-size: medium;
 }
 
-.top-div {
-    margin: top;
+.top-div
+ {
+    margin-top: 30px;
 }
 
-.container {
+.container
+ {
     margin-left: 20%;
     margin-right: 20%;
-
+   
 }
 
 
-.editorial {
+.space
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.color-button
+{
+    margin: 15px;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    background-color: #46adf0;
+    color: white;
+}
+
+
+
+.editorial 
+{
     border-radius: 15px;
     vertical-align: middle;
     padding-top: 4px;
@@ -54,7 +79,8 @@ header {
 
 }
 
-.q1-goals {
+.q1-goals 
+{
     border-radius: 15px;
     vertical-align: middle;
     padding-top: 4px;
@@ -65,7 +91,8 @@ header {
     color: white;
 }
 
-.recruting {
+.recruting 
+{
     border-radius: 15px;
     vertical-align: middle;
     padding-top: 4px;
@@ -76,7 +103,8 @@ header {
     color: white;
 }
 
-.mobile {
+.mobile 
+{
     border-radius: 15px;
     vertical-align: middle;
     padding-top: 4px;
@@ -87,7 +115,8 @@ header {
     color: white;
 }
 
-.website {
+.website 
+{
     border-radius: 15px;
     vertical-align: middle;
     padding-top: 4px;
@@ -98,10 +127,21 @@ header {
     color: white;
 }
 
-.sales {
+.sales 
+{
     border-radius: 15px;
     vertical-align: middle;
     padding: 3px 10px 3px 10px;
     background-color: #b1c927;
     color: white;
+}
+
+.circle
+{
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        padding: 8px;
+        background-color: green;
+        text-align: center;
 }
